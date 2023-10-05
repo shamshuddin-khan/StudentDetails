@@ -16,14 +16,25 @@ fieldset {
 
 
 button {
-    background-color: #4caf50;
+    background-color: rgb(76, 174, 79);
     color: #ffffff;
     padding: 10px 20px;
+    border-radius: 3px;
+    border:none;
     
 }
 
+button:hover{
+    background-color: rgb(69, 160, 73);
+}
 
 button[type="reset"] {
+    border:none;
     background-color: #f44336;
+    
+}
+
+button:hover[type ="reset"]{
+    background-color: #ff6659;
 }
 
